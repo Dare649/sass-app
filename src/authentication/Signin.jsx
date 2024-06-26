@@ -46,7 +46,7 @@ const Signin = () => {
                   placeholder="Enter your password"
                   className="outline-none border-none w-full"
                 />
-                <span onClick={handlePassword} className="font-bold text-neutral-1">
+                <span onClick={handlePassword} className="font-bold text-neutral-1 cursor-pointer">
                   {
                     password ? <GoEye size={20}/>:<GoEyeClosed size={20}/>
                   }

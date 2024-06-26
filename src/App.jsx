@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import Signin from "./authentication/Signin";
-import Signup from "./authentication/Signup";
+import Signup from "./authentication/sign-up/Signup";
 import ForgortPassword from "./authentication/ForgotPassword";
 
 const App = () => {
