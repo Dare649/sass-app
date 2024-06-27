@@ -16,9 +16,9 @@ const Password = ({prev}) => {
 
 
   return (
-    <div className="sm:w-full lg:w-[50%] mx-auto h-full">
+    <div className="sm:w-full lg:w-[50%] mx-auto h-screen">
         <FaLongArrowAltLeft onClick={prev} className="text-primary-100 cursor-pointer mb-5" size={25}/>
-        <div className="w-full mb-5 ">
+        <div className="w-full mb-5 lg:mt-40">
             <h2 className="font-bold capitalize">password</h2>
             <div className="flex items-center gap-x-2 outline-none border-2 border-neutral-1 rounded-lg p-3 focus-within:border-primary-100">
                 <input 
