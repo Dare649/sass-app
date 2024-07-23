@@ -1,4 +1,3 @@
-import logo from "../assets/images/logo.png";
 import { sideLink } from "./dummy";
 import { NavLink } from "react-router-dom";
 
@@ -8,7 +7,6 @@ const Sidebar = ({children}) => {
     <section className="w-full h-screen flex flex-row">
       <div className="lg:w-[20%] sm:w-0 h-full">
         <div className="p-3">
-            <img src={logo} alt="pluto-space-sales" />
             <div className="w-full mt-10">
                 {
                     sideLink.map((item, id)=>(

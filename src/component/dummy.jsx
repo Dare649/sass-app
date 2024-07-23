@@ -1,14 +1,12 @@
 import { FaRegUser } from "react-icons/fa6";
-import { TbPackages } from "react-icons/tb";
+import { TbPackages, TbReportAnalytics } from "react-icons/tb";
 import { LuUsers2 } from "react-icons/lu";
 import { PiUsersThree } from "react-icons/pi";
 import { IoSettingsOutline } from "react-icons/io5";
-
-
-
-
-
-  
+import { BsGraphDownArrow } from "react-icons/bs";
+import { MdAttachMoney } from "react-icons/md";
+import pic from "../assets/images/wcmen.jpg";
+import prod from "../assets/images/nairobi2.jpg";
 
 
 export const industries =[
@@ -36,9 +34,9 @@ export const industries =[
 
 export const sideLink = [
     {
-        title: "users",
-        path: "/users",
-        icon: <FaRegUser size={20}/>
+        title: "customers",
+        path: "/customers",
+        icon: <PiUsersThree size={20}/>
     },
     {
         title: "products",
@@ -48,12 +46,17 @@ export const sideLink = [
     {
         title: "sales",
         path: "/sales",
-        icon: <LuUsers2 size={20}/>
+        icon: <MdAttachMoney size={20}/>
     },
     {
-        title: "clients",
-        path: "/clients",
-        icon: <PiUsersThree size={20}/>
+        title: "expenses",
+        path: "/expenses",
+        icon: <BsGraphDownArrow size={20}/>
+    },
+    {
+        title: "report",
+        path: "/report",
+        icon: <TbReportAnalytics size={20}/>
     },
     {
         title: "settings",
@@ -69,14 +72,26 @@ export const  userTable = [
         name: "john doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 1,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "amina doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 2,
         role: "junior officer",
         login: "23/12/30",
         status: "disabled"
@@ -85,14 +100,26 @@ export const  userTable = [
         name: "segun doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 3,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "my doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 4,
         role: "semior officer",
         login: "23/12/30",
         status: "disabled"
@@ -101,14 +128,26 @@ export const  userTable = [
         name: "john doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 5,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "amina doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 6,
         role: "junior officer",
         login: "23/12/30",
         status: "disabled"
@@ -117,14 +156,26 @@ export const  userTable = [
         name: "segun doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 7,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "my doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 8,
         role: "semior officer",
         login: "23/12/30",
         status: "disabled"
@@ -133,14 +184,26 @@ export const  userTable = [
         name: "john doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 9,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "amina doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 10,
         role: "junior officer",
         login: "23/12/30",
         status: "disabled"
@@ -149,14 +212,26 @@ export const  userTable = [
         name: "segun doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 11,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "my doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 12,
         role: "semior officer",
         login: "23/12/30",
         status: "disabled"
@@ -165,14 +240,26 @@ export const  userTable = [
         name: "john doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 13,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "amina doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 14,
         role: "junior officer",
         login: "23/12/30",
         status: "disabled"
@@ -181,14 +268,26 @@ export const  userTable = [
         name: "segun doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 15,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "my doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 16,
         role: "semior officer",
         login: "23/12/30",
         status: "disabled"
@@ -197,14 +296,26 @@ export const  userTable = [
         name: "john doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 17,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "amina doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 18,
         role: "junior officer",
         login: "23/12/30",
         status: "disabled"
@@ -213,16 +324,379 @@ export const  userTable = [
         name: "segun doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 19,
         role: "manager",
         login: "23/12/30",
-        status: "active"
+        status: "active",
     },
     {
         name: "my doe",
         email: "john@email.com",
         branch: "lagos",
+        address: "2, burkingham palace, england",
+        img: pic,
+        phone: "08111142287",
+        city: "lekki",
+        state: "lagos",
+        id: 20,
         role: "semior officer",
         login: "23/12/30",
         status: "disabled"
     },
+];
+
+
+export const products = [
+    {
+        name: "milo",
+        category: "beverage",
+        unit_price: "N200.00",
+        quantity: "30",
+        id: 1,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "N20,000.00",
+        quantity: "100",
+        id: 2,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "bread",
+        category: "food",
+        unit_price: "N10,000.00",
+        quantity: "100,000",
+        id: 3,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "toyota corolla",
+        category: "automobile",
+        unit_price: "N6,000,000.00",
+        quantity: "2",
+        id: 4,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "vita form matrass",
+        category: "beddings",
+        unit_price: "N100,000.00",
+        quantity: "200",
+        id: 5,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "milo",
+        category: "beverage",
+        unit_price: "N200.00",
+        quantity: "30",
+        id: 6,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "N20,000.00",
+        quantity: "100",
+        id: 7,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "bread",
+        category: "food",
+        unit_price: "N10,000.00",
+        quantity: "100,000",
+        id: 8,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "toyota corolla",
+        category: "automobile",
+        unit_price: "N6,000,000.00",
+        quantity: "2",
+        id: 9,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "vita form matrass",
+        category: "beddings",
+        unit_price: "N100,000.00",
+        quantity: "200",
+        id: 10,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "milo",
+        category: "beverage",
+        unit_price: "N200.00",
+        quantity: "30",
+        id: 11,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "N20,000.00",
+        quantity: "100",
+        id: 12,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "bread",
+        category: "food",
+        unit_price: "N10,000.00",
+        quantity: "100,000",
+        id: 13,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "toyota corolla",
+        category: "automobile",
+        unit_price: "N6,000,000.00",
+        quantity: "2",
+        id: 14,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "vita form matrass",
+        category: "beddings",
+        unit_price: "N100,000.00",
+        quantity: "200",
+        id: 15,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "milo",
+        category: "beverage",
+        unit_price: "N200.00",
+        quantity: "30",
+        id: 16,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "N20,000.00",
+        quantity: "100",
+        id: 17,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "bread",
+        category: "food",
+        unit_price: "N10,000.00",
+        quantity: "100,000",
+        id: 18,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "toyota corolla",
+        category: "automobile",
+        unit_price: "N6,000,000.00",
+        quantity: "2",
+        id: 19,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "vita form matrass",
+        category: "beddings",
+        unit_price: "N100,000.00",
+        quantity: "200",
+        id: 20,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "milo",
+        category: "beverage",
+        unit_price: "N200.00",
+        quantity: "30",
+        id: 21,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "N20,000.00",
+        quantity: "100",
+        id: 22,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "bread",
+        category: "food",
+        unit_price: "N10,000.00",
+        quantity: "100,000",
+        id: 23,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "toyota corolla",
+        category: "automobile",
+        unit_price: "N6,000,000.00",
+        quantity: "2",
+        id: 24,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "vita form matrass",
+        category: "beddings",
+        unit_price: "N100,000.00",
+        quantity: "200",
+        id: 25,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "milo",
+        category: "beverage",
+        unit_price: "N200.00",
+        quantity: "30",
+        id: 26,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "N20,000.00",
+        quantity: "100",
+        id: 27,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "bread",
+        category: "food",
+        unit_price: "N10,000.00",
+        quantity: "100,000",
+        id: 28,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "toyota corolla",
+        category: "automobile",
+        unit_price: "N6,000,000.00",
+        quantity: "2",
+        id: 29,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+    {
+        name: "vita form matrass",
+        category: "beddings",
+        unit_price: "N100,000.00",
+        quantity: "200",
+        id: 30,
+        serial_number: "0000 0000 1188",
+        img: prod,
+    },
+];
+
+
+export const sales = [
+    {
+        name: "milo",
+        category: "beverage",
+        unit_price: "200",
+        quantity_sold: "3",
+        amount: "600",
+        id: 1,
+        img: prod
+    },
+    {
+        name: "toyota camry",
+        category: "automobile",
+        unit_price: "2,000,000",
+        quantity_sold: "1",
+        amount: "2,000,000",
+        id: 2,
+        img: prod
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "2,000",
+        quantity_sold: "1",
+        amount: "2,000",
+        id: 3,
+        img: prod
+    },
+    {
+        name: "t-shirt",
+        category: "clothings",
+        unit_price: "2,000",
+        quantity_sold: "1",
+        amount: "2,000",
+        id: 4,
+        img: prod
+    },
+
+]
+
+export const expenses = [
+    {
+        name: "repair of corporate car",
+        category: "repair and maintenance",
+        amount: "50,000",
+        id: 1,
+        img: prod,
+        type: "operational expenditure"
+    },
+    {
+        name: "purchase of van",
+        category: "asset",
+        amount: "2,000,000",
+        id: 2,
+        img: prod,
+        type: "capital expenditure"
+    },
+    {
+        name: "purchase of Ac",
+        category: "assets",
+        amount: "200,000",
+        id: 3,
+        img: prod,
+        type: "capital expenditure"
+    },
+    {
+        name: "fixing of ac",
+        category: "repairs & maintenance",
+        amount: "20,000",
+        id: 4,
+        img: prod,
+        type: "operational expenditure"
+    },
+
 ]

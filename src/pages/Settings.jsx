@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ViewUsers = () => {
+const Settings = () => {
   return (
     <div>
-      view me
+      settings
     </div>
   )
 }
 
-export default ViewUsers
+export default Settings
