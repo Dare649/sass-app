@@ -12,6 +12,7 @@ import Settings from "./pages/Settings";
 import Expenses from "./pages/expenses/Expenses";
 import ViewProduct from "./pages/products/ViewProduct";
 import ViewSales from "./pages/sales/ViewSales";
+import Dashboard from "./pages/Dashboard";
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/" element={<Signin/>}/>
         <Route path="/sign-up" element={<Signup/>}/>
         <Route element={<Navigation/>}>
+          <Route path="/dashboard" element={<Dashboard/>}/>
           <Route path="/customers" element={<Customers/>}/>
           <Route path="/view-customers/:id" element={<ViewCustomers/>}/>
           <Route path="/view-product/:id" element={<ViewProduct/>}/>

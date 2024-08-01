@@ -7,6 +7,8 @@ import { BsGraphDownArrow } from "react-icons/bs";
 import { MdAttachMoney } from "react-icons/md";
 import pic from "../assets/images/wcmen.jpg";
 import prod from "../assets/images/nairobi2.jpg";
+import { RxDashboard } from "react-icons/rx";
+import { IoIosLogOut } from "react-icons/io";
 
 
 export const industries =[
@@ -33,6 +35,11 @@ export const industries =[
 ];
 
 export const sideLink = [
+    {
+        title: "dashboard",
+        path: "/dashboard",
+        icon: <RxDashboard size={20}/>
+    },
     {
         title: "customers",
         path: "/customers",
@@ -62,6 +69,11 @@ export const sideLink = [
         title: "settings",
         path: "/settings",
         icon: <IoSettingsOutline size={20}/>,
+    },
+    {
+        title: "sign out",
+        path: "/",
+        icon: <IoIosLogOut size={20}/>,
         gap: true
     },
 ];

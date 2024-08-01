@@ -10,7 +10,7 @@ const Sidebar = ({children}) => {
             <div className="w-full mt-10">
                 {
                     sideLink.map((item, id)=>(
-                        <NavLink to={item.path} className={`flex flex-row items-center gap-x-2 text-md font-bold capitalize py-5 hover:bg-primary-100/50 active:bg-primary-100/50 rounded px-3 hover:text-primary-200 active:text-primary-200`}>
+                        <NavLink to={item.path} className={`flex flex-row items-center gap-x-2 text-md font-bold capitalize py-5 hover:bg-primary-100/50 active:bg-primary-100/50 rounded px-3 hover:text-primary-200 active:text-primary-200 ${item.gap == true ? "text-red-500 sm:mt-14": null}`}>
                             <h4>{item.icon}</h4>
                             <h4>{item.title}</h4>
                         </NavLink>
